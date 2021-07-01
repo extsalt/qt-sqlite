@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("C:\\Users\\ganes\\database.db");
+    db.setDatabaseName("C:\\Users\\sherlock\\database.db");
 
     if(!db.open()) {
         std::cout << "Failed to open database";
